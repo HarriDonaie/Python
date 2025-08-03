@@ -21,15 +21,15 @@ session = Session()
 #     date_added = date.today()
 # )
 
-new_book = Book(
-    title = "The Devils",
-    author = "Joe Abercrombie",
-    genre = "Fantasy",
-    status = "Completed",
-    rating = 5,
-    review = "Suicide Squad set in historic Europe. Dope.",
-    date_added = date.today()
-)
+# new_book = Book(
+#     title = "The Devils",
+#     author = "Joe Abercrombie",
+#     genre = "Fantasy",
+#     status = "Completed",
+#     rating = 5,
+#     review = "Suicide Squad set in historic Europe. Dope.",
+#     date_added = date.today()
+# )
 
 # Add and commit to DB
 session.add(new_book)
